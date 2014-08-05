@@ -11,5 +11,7 @@ public class Hello_eGit {
 		KlasaNowyBranch nowyBranch;
 		nowyBranch = new KlasaNowyBranch();
 		nowyBranch.wyswietl();
+		
+		//poprawki w NowyBranch
 	 }		
 }
