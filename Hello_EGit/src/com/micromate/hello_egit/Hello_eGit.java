@@ -21,5 +21,16 @@ public class Hello_eGit {
 		
 		//szybkie wyswietlanie
 		System.out.println(Arrays.toString(tab));
+		
+		//******
+		//Dodane w nowym branchu
+		NowyBranch nowyBranch;
+		nowyBranch = new NowyBranch();
+		nowyBranch.wyswietl();
+		
+		int[] tabi = {3,4,2,8,1};
+		tabi = nowyBranch.segreguj(tabi);
+		
+		System.out.println(Arrays.toString(tabi));
 	 }		
 }
