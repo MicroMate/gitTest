@@ -1,5 +1,7 @@
 package com.micromate.hello_egit;
 
+import java.util.Arrays;
+
 public class Hello_eGit {
 	 
 	
@@ -16,5 +18,8 @@ public class Hello_eGit {
 		for (int i =0; i<tab.length; i++){
 			System.out.println(tab[i]);
 		}
+		
+		//szybkie wyswietlanie
+		System.out.println(Arrays.toString(tab));
 	 }		
 }
