@@ -8,7 +8,8 @@ public class Hello_eGit {
 	 public static void main (String args[]){ 
 	
 		int tab[] = {10,5,3,8,15,2};
-		 
+		//tablica 2
+		int[] tabi = {3,4,2,8,1}; 
 		 
 		 System.out.println("Hello eGIT");
 		
@@ -28,8 +29,8 @@ public class Hello_eGit {
 		nowyBranch = new NowyBranch();
 		nowyBranch.wyswietl();
 		
-		//tablica 2
-		int[] tabi = {3,4,2,8,1};
+		tab = nowyBranch.segreguj(tab);
+		
 		//segregowanie tablicy 2
 		tabi = nowyBranch.segreguj(tabi);
 		
