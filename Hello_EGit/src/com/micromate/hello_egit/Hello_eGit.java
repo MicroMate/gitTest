@@ -28,7 +28,9 @@ public class Hello_eGit {
 		nowyBranch = new NowyBranch();
 		nowyBranch.wyswietl();
 		
+		//tablica 2
 		int[] tabi = {3,4,2,8,1};
+		//segregowanie tablicy 2
 		tabi = nowyBranch.segreguj(tabi);
 		
 		System.out.println(Arrays.toString(tabi));
